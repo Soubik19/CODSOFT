@@ -2,8 +2,8 @@ Here are the tasks that I did for my Web Development virtual internship at CodSo
 
 The tasks I did:
 
-    1.Landing Page
+    1.Landing Page Project
   
-    2.Portfolio
+    2.Portfolio Project
   
-    3.Calculator
+    3.Simple Calculator
