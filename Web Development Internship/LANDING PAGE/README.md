@@ -1,4 +1,4 @@
-This is the first task of the Web Development Internship - Landing Page Project.
+This is the first task of my Web Development Internship at CodSoft - Landing Page Project.
 
 I have developed the landing page of Voyago.
 
