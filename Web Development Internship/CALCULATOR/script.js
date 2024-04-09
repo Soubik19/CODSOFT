@@ -1,5 +1,6 @@
 let display = document.getElementById('inputBox');
 let calculator = document.querySelector('.calculator');
+let buttons = document.querySelectorAll('button');
 
 calculator.addEventListener('click', function (event) {
     if (event.target.tagName === 'BUTTON') {
@@ -15,6 +16,16 @@ calculator.addEventListener('click', function (event) {
             appendToDisplay(buttonValue);
         }
     }
+});
+
+buttons.forEach(button => {
+    button.addEventListener('mousedown', function () {
+        this.classList.add('active');
+    });
+
+    button.addEventListener('mouseup', function () {
+        this.classList.remove('active');
+    });
 });
 
 function appendToDisplay(value) {
