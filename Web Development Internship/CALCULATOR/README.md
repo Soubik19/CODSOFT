@@ -13,4 +13,4 @@ I have developed a basic calculator web application.
 
 - HTML5
 - CSS3
-- JavaScript.
+- JavaScript
